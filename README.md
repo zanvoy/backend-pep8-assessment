@@ -22,10 +22,10 @@ You can use [rerun](https://pypi.org/project/rerun/) run continually run unit
 tests:
 
 ```console
-$ rerun "python -m unittest discover"
+foo@bar:~ $ rerun "python -m unittest discover"
 ```
 
 If you don't have rerun installed, you can of course run the test suite by itself:
 ```console
-$ python -m unittest discover
+foo@bar:~ $ python -m unittest discover
 ```
