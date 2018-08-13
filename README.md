@@ -5,7 +5,7 @@ style guide.
 
 Your task is to update the program so that it is PEP 8 compliant. 
 
-# Guidelines
+## Guidelines
 
 - You should *not* remove comments. If a comment is two long,  for instance,
   simply break it up into multiple lines.
@@ -15,7 +15,9 @@ Your task is to update the program so that it is PEP 8 compliant.
 
 - You should *not* be modifying anything in the `tests` directory
 
-# Testing
+- The test suite (see below) must pass
+
+## Running the test suite
 You can use [rerun](https://pypi.org/project/rerun/) run continually run unit
 tests:
 
