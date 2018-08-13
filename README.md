@@ -21,11 +21,11 @@ Your task is to update the program so that it is PEP 8 compliant.
 You can use [rerun](https://pypi.org/project/rerun/) run continually run unit
 tests:
 
-```python
-rerun "python -m unittest discover"
+```console
+$ rerun "python -m unittest discover"
 ```
 
 If you don't have rerun installed, you can of course run the test suite by itself:
-```python
-python -m unittest discover
+```console
+$ python -m unittest discover
 ```
