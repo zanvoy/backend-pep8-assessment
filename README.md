@@ -24,3 +24,8 @@ tests:
 ```python
 rerun "python -m unittest discover"
 ```
+
+If you don't have rerun installed, you can of course run the test suite by itself:
+```python
+python -m unittest discover
+```
