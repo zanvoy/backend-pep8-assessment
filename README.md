@@ -23,12 +23,12 @@ There are several ways to run the test suite:
 - You can use [rerun](https://pypi.org/project/rerun/) run continually run unit tests:
 
 ```console
-foo@bar:~ $ rerun "python -m unittest discover"
+$ rerun "python -m unittest discover"
 ```
 
 If you don't have rerun installed, you can run the test suite by itself:
 ```console
-foo@bar:~ $ python -m unittest discover
+$ python -m unittest discover
 ```
 
 ## PR (Pull Request) Workflow for this Assignment
